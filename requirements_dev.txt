@@ -13,6 +13,8 @@ joblib
 types-PyYAML
 scipy
 mlflow==1.26.1
+typing
+pathlib
 -e .
 
 ## Dev requirements
