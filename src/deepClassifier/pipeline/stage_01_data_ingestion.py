@@ -1,7 +1,9 @@
 from deepClassifier.config import ConfigurationManager
 from deepClassifier.components import DataIngestion
 from deepClassifier import logger
+
 STAGE_NAME = "Data Ingestion stage"
+
 
 def main():
     config = ConfigurationManager()
@@ -10,11 +12,14 @@ def main():
     data_ingestion.download_file()
     data_ingestion.unzip_and_clean()
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     try:
         logger.info(">>>>>>>> stage {STAGE_NAME} started")
         main()
-        logger.info(">>>>>>>> stage {STAGE_NAME} completed <<<<<\n\n================================")
+        logger.info(
+            ">>>>>>>> stage {STAGE_NAME} completed <<<<<\n\n================================"
+        )
     except Exception as e:
         logger.exception(e)
-        raise e 
+        raise e
