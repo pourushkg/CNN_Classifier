@@ -17,4 +17,7 @@ git init
 10. Update the dvc.yaml
 11. run "dvc repro" for running all the stages in pipeline
 
+## To visualize tensorboard 
+tensorboard --logdir=artifacts/prepare_callbacks/tensorboard_log_dir/
+
 
