@@ -162,3 +162,9 @@ cython_debug/
 .vscode
 *.jpg
 *.zip
+artifacts/prepare_base_model/base_model_updated.h5
+artifacts/prepare_base_model/base_model.h5
+artifacts/prepare_callbacks/checkpoint_dir/model.h5
+artifacts/prepare_callbacks/tensorboard_log_dir/tb_logs_at_2023-11-18-16-27-30/train/events.out.tfevents.1700305054.POURUSH_GUPTA.13992.0.v2
+artifacts/prepare_callbacks/tensorboard_log_dir/tb_logs_at_2023-11-18-16-27-30/validation/events.out.tfevents.1700308100.POURUSH_GUPTA.13992.1.v2
+artifacts/training/model.h5
