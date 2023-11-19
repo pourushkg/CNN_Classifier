@@ -16,8 +16,19 @@ git init
 9. run tox for testing your package
 10. Update the dvc.yaml
 11. run "dvc repro" for running all the stages in pipeline
+12. conda activate ./env
 
 ## To visualize tensorboard 
 tensorboard --logdir=artifacts/prepare_callbacks/tensorboard_log_dir/
+
+## dvc operations 
+pip install dvc 
+### first we have to initialize dvc 
+dvc init 
+### to start running the stages 
+dvc repro
+### how the stages are connected 
+dvc dag 
+
 
 
